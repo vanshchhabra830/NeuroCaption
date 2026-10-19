@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+ENV/
+
+# Build and Output
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model Caches and Large Downloads
+backend/models_cache/
+models_cache/
+
+# Uploads / Temp Files / Media Outputs
+temp/
+uploads/
+outputs/
+exports/
+
+# Environment Variables (Secrets)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+!.env.example
+!.env.local.example
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
